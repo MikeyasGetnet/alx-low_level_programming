@@ -2,8 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
+/**  
+ * *main - prints a random number
+ * *states whether its zero negative or positive
+ * *return always 0
+ * 
+ */
+
 int main(void)
 /*this is the main function*/
 {
