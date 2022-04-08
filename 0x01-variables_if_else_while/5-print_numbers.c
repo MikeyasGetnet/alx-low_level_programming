@@ -5,11 +5,9 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char c;
-for (c=0;c<26;++c)
-putchar('a' + c);
-for (c=0;c<26;+cc)
-putchar('A' + c);
+char n;
+for (n=0;n<9;++n)
+putchar(n);
 
 putchar('\n');
 
