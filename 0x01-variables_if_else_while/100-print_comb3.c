@@ -5,10 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**  
- * *main - prints a random number
- * *states whether its zero negative or positive
- * *return always 0
- * */
+ *main - prints a random number
+ *states whether its zero negative or positive
+ *return always 0
+ */
 int main(void)
 {
 int n1, n2;
