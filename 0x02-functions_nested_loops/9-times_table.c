@@ -17,20 +17,16 @@ for (cone = 1; cone <= 9; cone++)
 {
 d = (rone * cone);
 															if ((d / 10) > 0)
-{
-																														_putchar((d / 10) + '0');
-																														}
+{															_putcha((d / 10) + '0');
+}
 															else
 															{															_putchar(' ');
-															}
-															_putchar((d % 10) + '0');
+															}															_putchar((d % 10) + '0');
 
 															if (cone < 9)	
-															{
+{
 															_putchar(',');
-																																													_putchar(' ');
-																																													}
-																														}
+															_putchar(' ');																													}															}
 															_putchar('\n');
 															}
 }
