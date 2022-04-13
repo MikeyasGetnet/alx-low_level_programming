@@ -21,6 +21,7 @@ fib1 = fib2;
 fib2 = sum;
 if (i == 49)
 printf("\n");
+else
 printf(", ");
 
 }
