@@ -1,9 +1,11 @@
 #include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
- * times_table -  a function that prints the 9 times table, starting with 0
- * rone = row, cone = column, d = digits of current result
- * Return: times table
- * add extra space past single digit
+ *main - prints a random number
+ *states whether its zero negative or positive
+ *Return: Always 0.
  */
 int main(void)
 {
