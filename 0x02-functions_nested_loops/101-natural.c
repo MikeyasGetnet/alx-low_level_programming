@@ -1,39 +1,18 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * print_to_98 - a function that prints all natural numbers from n to 98
- * user input's number prints to 98, regardless < 98 or > 98
- * @n: number input
- * Return: Always 0 (Success)
+ * times_table -  a function that prints the 9 times table, starting with 0
+ * rone = row, cone = column, d = digits of current result
+ * Return: times table
+ * add extra space past single digit
  */
-void print_to_98(int n)
+int main(void)
 {
-if (n < 98)
-while (n <= 98)
+int i, sum = 0;
+for (i = 0; i < 1024; i++)
 {
-printf("%d", n);
-if (n != 98)
-{
-printf(", ");
+if (i % 3 == 0 || i % 5 == 0)
+sum += i;
 }
-n++;
-}
-
-else if (n > 98)
-{
-while (n >= 98)
-{
-printf("%d", n);
-if (n != 98)
-{
-printf(", ");
-}
-n--;
-}
-}
-else
-{
-printf("98");
-}
-printf("\n");
+printf("%d\n", sum);	
+return (0);
 }
