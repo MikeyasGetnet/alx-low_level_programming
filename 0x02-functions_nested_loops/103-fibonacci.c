@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-int i;
 unsigned long fib1 = 0, fib2 = 0, sum = 0;
 float total = 0;
 while (1)
