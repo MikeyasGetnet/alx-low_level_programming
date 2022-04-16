@@ -1,19 +1,28 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_array - a function that prints n elements of an array
- * @a: array name
- * @n: is the number of elements OF the array to be printed
- * Return: a and n inputs
+ * print_square - a function that prints a square, followed by a new line
+ * @size: size of both width and length
+ * Return: a square made of '#'
  */
-void print_array(int *a, int n)
+void print_square(int size)
 {
-int i;
+int co, ro;
 
-for (i = 0; i < (n - 1); i++)
-printf("%d, ", a[i]);
-if (i == (n - 1))
-printf("%d", a[n - 1]);
-printf("\n");
+if (size <= 0)
+{
+_putchar('\n');
+}
+else
+{
+for (co = 1; co <= size; co++)
+{
+_putchar('#');
+															for (ro = 2; ro <= size; ro++)
+															{
+															_putchar('#');
+															}
+															_putchar('\n');
+															}
+}
 }
