@@ -24,7 +24,7 @@ number /= oddPrimeNum;
 }
 oddPrimeNum += 2;
 }
-printf ("%d\n",maxPrimeNum);
+printf ("%d\n", maxPrimeNum);
 
 return 0;
 }
