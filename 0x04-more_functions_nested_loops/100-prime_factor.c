@@ -5,13 +5,11 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 long int number = 612852475143;
 int oddPrimeNum = 3;
 int maxPrimeNum = 0;
-
 while (number % 2 == 0)
 {
 maxPrimeNum = 2;
