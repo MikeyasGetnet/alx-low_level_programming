@@ -9,8 +9,8 @@ int main(void)
 {
 long long number;
 number = 612852475143;
-oddPrimeNum = 3;
-maxPrimeNum = 0;
+int oddPrimeNum = 3;
+int maxPrimeNum = 0;
 
 while (number % 2 == 0)
 {
