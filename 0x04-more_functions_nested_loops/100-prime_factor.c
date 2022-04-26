@@ -4,9 +4,8 @@
  *
  * Return: Always 0 (Success)
  */
-#include <stdio.h>
 
-void main()
+int main(void)
 {
 long long number;
 number = 612852475143;
