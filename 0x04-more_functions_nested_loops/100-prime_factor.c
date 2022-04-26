@@ -8,7 +8,7 @@
 
 int main(void)
 {
-long long number = 612852475143;
+long int number = 612852475143;
 int oddPrimeNum = 3;
 int maxPrimeNum = 0;
 
