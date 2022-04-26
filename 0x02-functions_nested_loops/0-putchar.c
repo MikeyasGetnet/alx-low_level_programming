@@ -5,8 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- *main - prints a random number
- *states whether its zero negative or positive
+ *main - prints _putchar
  *Return: Always 0.
  */
 int main(void)
