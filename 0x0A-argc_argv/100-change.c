@@ -44,7 +44,7 @@ while (cents >= d)
 cents -= d;
 coins++;
 }
-while (cents >= n)										
+while (cents >= n)
 {
 cents -= n;
 coins++;
