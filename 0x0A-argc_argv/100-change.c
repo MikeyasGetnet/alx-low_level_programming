@@ -22,7 +22,6 @@ return (0);
 printf("%d\n", change(atoi(argv[1])));
 return (0);
 }
-
 /**
  * change - get change
  * @cents: amount of coins from main function
@@ -45,12 +44,14 @@ while (cents >= d)
 cents -= d;
 coins++;
 }
-while (cents >= n)													
+while (cents >= n)										
 {
-cents -= n;														coins++;
+cents -= n;
+coins++;
 }
 while (cents >= t)
-{															cents -= t;
+{
+cents -= t;
 coins++;
 }
 while (cents >= p)
