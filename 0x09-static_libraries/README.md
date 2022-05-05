@@ -1,1 +1,2 @@
-this folder includes codes with static libraries
+this folder includ code with static libraries
+
