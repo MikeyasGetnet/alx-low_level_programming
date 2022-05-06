@@ -17,8 +17,8 @@ return (NULL);
 for (end = 0; end <= *str; end++)
 {
 }
-
-array = (char*)malloc(sizeof(char) * end);
+end += 1;
+array = (char *)malloc(sizeof(char) * end);
 for (i = 0; i < end; i++)
 array[i] = str[i];
 
