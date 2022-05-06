@@ -18,7 +18,7 @@ for (end = 0; end <= *str; end++)
 {
 }
 end += 1;
-array = (char *)malloc(sizeof(char) * end);
+array = malloc(sizeof(char) * end);
 for (i = 0; i < end; i++)
 array[i] = str[i];
 
