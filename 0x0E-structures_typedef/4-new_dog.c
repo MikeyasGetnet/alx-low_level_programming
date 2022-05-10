@@ -46,11 +46,13 @@ return (NULL);
 
 for (x = 0; x <= name_len; x++)
 copy_name[x] = name[x];
+
 for (x = 0; x <= owner_len; x++)
 copy_owner[x] = owner[x];
 
 new_name->name = copy_name;
 new_name->owner = copy_owner;
 new_name->age = age;
+
 return (new_name);
 }
