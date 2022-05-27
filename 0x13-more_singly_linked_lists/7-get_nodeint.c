@@ -13,8 +13,8 @@ while (count < index)
 {
 if (head->next == NULL)
 {
-															return (NULL);
-															}
+return (NULL);
+}
 else
 {
 count++;
